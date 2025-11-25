@@ -1,4 +1,4 @@
-/* Global styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('assets/netflix-bg.jpg'); /* Replace with your background image */
+    background-image: url('netflix-background.jpeg'); 
     background-size: cover;
     background-position: center;
   }
@@ -120,7 +120,7 @@
   }
 
   .hero-bg {
-    background: url('assets/netflix-background.jpeg') no-repeat center center/cover;
+    background: url('netflix-background.jpeg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -148,7 +148,6 @@
     background-color: rgb(18, 17, 17);
     opacity: 0.5;
     color: white;
-    /* box-shadow: 0 8px 20px rgba(255, 255, 255, 0.106); */
     border-color:rgb(255, 255, 255);
   }
   
@@ -194,4 +193,5 @@
       width: 90%;
     }
   }
+
   
