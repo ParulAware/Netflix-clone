@@ -1,4 +1,4 @@
-
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('netflix-background.jpeg'); 
+    background-image: url('assets/netflix-bg.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -148,6 +148,7 @@
     background-color: rgb(18, 17, 17);
     opacity: 0.5;
     color: white;
+    /* box-shadow: 0 8px 20px rgba(255, 255, 255, 0.106); */
     border-color:rgb(255, 255, 255);
   }
   
@@ -193,5 +194,4 @@
       width: 90%;
     }
   }
-
   
